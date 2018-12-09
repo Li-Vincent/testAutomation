@@ -31,8 +31,8 @@ public class BaiduTest1 {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-        Assert.assertTrue(BaseTest.getDriver().getPageSource().contains("ÖĞ¹úÈí¼ş²âÊÔÈËµÄ¾«Éñ¼ÒÔ°"));
-        Reporter.log("ËÑË÷51testingµÄ²âÊÔÓÃÀı");
+        Assert.assertTrue(BaseTest.getDriver().getPageSource().contains("ä¸“æ³¨ä¸­å›½æµ‹è¯•è¡Œä¸š14å¹´"));
+        Reporter.log("æœç´¢51Testingçš„æµ‹è¯•ç”¨ä¾‹");
 	}
 
 }
