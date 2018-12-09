@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import com.automation.BaseTest;
 
-public class BaiduTest1 {
+public class Baidu2Test {
 
 	@BeforeMethod
 	public void beforeMethod() {
@@ -23,7 +23,7 @@ public class BaiduTest1 {
 
 	@Test
 	public void test() {
-        BaseTest.getDriver().findElement(By.xpath(".//*[@id='kw']")).sendKeys("51testing");
+        BaseTest.getDriver().findElement(By.xpath(".//*[@id='kw']")).sendKeys("selenium");
         BaseTest.getDriver().findElement(By.xpath(".//*[@id='su']")).click();
 
         try {
@@ -31,8 +31,8 @@ public class BaiduTest1 {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-        Assert.assertTrue(BaseTest.getDriver().getPageSource().contains("专注中国测试行业14年"));
-        Reporter.log("搜索51Testing的测试用例");
+        Assert.assertTrue(BaseTest.getDriver().getPageSource().contains("浏览器自动化测试框架"));
+        Reporter.log("搜索Selenium的测试用例");
 	}
 
 }

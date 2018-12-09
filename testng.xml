@@ -3,12 +3,12 @@
 <suite name="百度" verbose="2" preserve-order="true">
 	<test name="搜索51Testing的测试用例">
 		<classes>
-			<class name="com.automation.test.BaiduTest1" />
+			<class name="com.automation.test.Baidu1Test" />
 		</classes>
 	</test>
 	<test name="搜索Selenium的测试用例">
 		<classes>
-			<class name="com.automation.test.BaiduTest2" />
+			<class name="com.automation.test.Baidu2Test" />
 		</classes>
 	</test>
 	<listeners>
