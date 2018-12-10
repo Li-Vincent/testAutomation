@@ -1,4 +1,4 @@
-package com.automation;
+package com.automation.fw;
 
 import java.util.concurrent.TimeUnit;
 
